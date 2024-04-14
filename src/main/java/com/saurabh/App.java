@@ -23,8 +23,8 @@ public class App
     	
         String message = "Dear Saurabh, This is an inspection email. Please do not respond to this email";
         String subject = "Inspection Email : Confirmation";
-        String to = "saurabhkumarjha525@gmail.com";
-        String from = "saurabhkumarjha0710@gmail.com";
+        String to = "Provide here reciever email Id";
+        String from = "Provide here sender email Id";
         
         sendEmail(message, subject, to, from);
         
@@ -56,7 +56,7 @@ public class App
     				@Override
     				protected PasswordAuthentication getPasswordAuthentication() {
     					// TODO Auto-generated method stub
-    					return new PasswordAuthentication("saurabhkumarjha0710@gmail.com", "csbm cnme dehz byqj");
+    					return new PasswordAuthentication("Provide here sender email Id", "Provide here email pass key for authorization");
     				}
     				
     			});
@@ -142,7 +142,7 @@ public class App
 			@Override
 			protected PasswordAuthentication getPasswordAuthentication() {
 				// TODO Auto-generated method stub
-				return new PasswordAuthentication("saurabhkumarjha0710@gmail.com", "csbm cnme dehz byqj");
+				return new PasswordAuthentication("Provide here sender email Id", "Provide here email pass key for authorization");
 			}
 			
 		});
